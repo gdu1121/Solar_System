@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="planet-backgrounds.css">
+        <title>Earth</title>
+    </head>
+
+    <body class ="earth">
+        <header>
+            <a href="Solar_System.html">
+                <img src="Home_Logo.png" alt="Home Logo">
+            </a>
+            <nav class="planet-links" aria-label="Solar system pages">
+                <a href="The_Sun.html">The Sun</a>
+                <a href="Mercury.html">Mercury</a>
+                <a href="Venus.html">Venus</a>
+                <a href="Earth.html">Earth</a>
+                <a href="The Moon.html">Moon</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturn.html">Saturn</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+        </header>
+
+        <div class="img-container">
+            <img src="Earth.png" alt="Earth">
+        </div>
+
+        <div class="container">
+            <h1>Earth</h1>
+            <p>While Earth is only the fifth largest planet in the solar system, it is the only planet in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal. Earth is the only planet in the solar system whose English name does not come from Greek or Roman mythology. The name was taken from Old English and Germanic. It simply means "the ground." There are, of course, many names for our planet in the thousands of languages spoken by the people of the third planet from the Sun.</p>
+            <h1> Size and Distance</h1>
+            <p> With an equatorial diameter of 7,926 miles (12,756 kilometers), Earth is the biggest of the terrestrial planets and the fifth largest planet in our solar system. From an average distance of 93 million miles (150 million kilometers), Earth is exactly one astronomical unit away from the Sun because one astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. This unit provides an easy way to quickly compare planets' distances from the Sun. It takes about eight minutes for light from the Sun to reach our planet.</p>
+            <h1> Orbit and Rotation</h1>
+            <p>Earth takes 365.25 days to orbit the Sun, which is why we have a leap year every four years. The planet rotates on its axis once every 24 hours, which is why we have day and night. Earth is tilted on its axis by 23.5 degrees, which is what causes the seasons.</p>
+            <h1> Structure and Surface</h1>
+            <p>Earth is the only planet in the solar system with liquid water on the surface. About 71% of Earth's surface is covered by water, mostly oceans. The remaining 29% of Earth's surface is land, which includes continents and islands. Earth's atmosphere is made up of 78% nitrogen, 21% oxygen, and trace amounts of other gases. The atmosphere protects life on Earth by blocking harmful solar radiation and reducing temperature extremes between day and night.</p>
+            <p>Earth has a solid inner core, a liquid outer core, a viscous mantle, and a solid crust. The inner core is primarily composed of iron and nickel and is about 1,220 kilometers (760 miles) thick. The outer core is also made of iron and nickel but is in a liquid state and is about 2,260 kilometers (1,400 miles) thick. The mantle is made of silicate rocks that are rich in magnesium and iron and extends to a depth of about 2,900 kilometers (1,800 miles). The crust is the outermost layer of the Earth and varies in thickness from about 5 kilometers (3 miles) under the oceans to about 70 kilometers (43 miles) under the continents.</p>
+            <figure class="planet-photo">
+                <img src="EarthAurora.jpg" alt="Green aurora glowing above Earth's horizon, seen from orbit">
+                <figcaption>Auroras glow in Earth's upper atmosphere.</figcaption>
+            </figure>
+            <h1> Moons </h1>
+            <p>Earth has one natural satellite, the Moon. The Moon is about 1/4 the size of Earth and is located about 384,400 kilometers (238,855 miles) away from Earth. The Moon's gravitational pull affects Earth's tides and stabilizes its axial tilt, which helps maintain a stable climate.</p>
+            <p><a href="The Moon.html">Learn more about the Moon</a></p>
+            <a class="home-button" href="Solar_System.html">Back to Solar System</a>
+        </div>
+
+        <section class="planet-tool" aria-labelledby="earth-tool-title">
+            <h1 id="earth-tool-title">Distance Traveled by Earth's Rotation</h1>
+            <form id="earth-form">
+                <label for="rotation-hours">Hours on Earth's equator:</label>
+                <input id="rotation-hours" type="number" min="0" step="any" required>
+                <button type="submit">Calculate Distance</button>
+            </form>
+            <p class="tool-result" id="earth-result" role="status" aria-live="polite"></p>
+        </section>
+
+        <script src="earth_rotation.js"></script>
+    </body>
+</html>

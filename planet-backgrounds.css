@@ -1,0 +1,137 @@
+/* Page backgrounds and matching content panels */
+body.earth {
+    background-color: #08264a;
+    background-image:
+        radial-gradient(circle at 18% 25%, rgba(25, 145, 75, 0.65), transparent 28%),
+        radial-gradient(circle at 78% 70%, rgba(20, 105, 190, 0.65), transparent 32%),
+        radial-gradient(circle at 55% 45%, rgba(80, 170, 220, 0.18), transparent 45%),
+        radial-gradient(white 1px, transparent 1px);
+    background-size: auto, auto, auto, 95px 95px;
+}
+
+body.jupiter {
+    background-color: #2b1b13;
+    background-image:
+        repeating-linear-gradient(
+            0deg,
+            #3a2418 0px,
+            #3a2418 35px,
+            #8b6548 36px,
+            #c69b70 58px,
+            #67432e 80px,
+            #b5825e 105px
+        );
+}
+
+body.mars {
+    background-color: #35130c;
+    background-image:
+        radial-gradient(circle at 20% 30%, rgba(190, 70, 35, 0.5), transparent 30%),
+        radial-gradient(circle at 80% 70%, rgba(120, 35, 20, 0.7), transparent 35%),
+        radial-gradient(white 1px, transparent 1px);
+    background-size: auto, auto, 130px 130px;
+}
+
+body.mercury {
+    background-color: #262421;
+    background-image:
+        radial-gradient(circle at 20% 25%, rgba(190, 185, 175, 0.25) 0 2px, transparent 3px),
+        radial-gradient(circle at 70% 70%, rgba(150, 145, 135, 0.2) 0 3px, transparent 4px),
+        radial-gradient(#77736d 1px, transparent 1px);
+    background-size: 90px 90px, 130px 130px, 70px 70px;
+}
+
+body.venus {
+    background-color: #5a3215;
+    background-image:
+        repeating-linear-gradient(
+            15deg,
+            rgba(255, 190, 90, 0.12) 0px,
+            rgba(255, 190, 90, 0.12) 35px,
+            rgba(120, 65, 20, 0.15) 70px,
+            rgba(255, 220, 140, 0.12) 100px
+        );
+}
+
+body.sun {
+    background-color: #28150a;
+    background-image:
+        radial-gradient(circle at center, rgba(255, 190, 70, 0.65) 0%, rgba(210, 90, 15, 0.4) 28%, rgba(70, 25, 8, 0.25) 58%, transparent 78%),
+        radial-gradient(circle at 20% 30%, rgba(230, 120, 20, 0.2), transparent 35%);
+    background-attachment: fixed;
+}
+
+body.neptune {
+    background-color: #03132e;
+    background-image:
+        radial-gradient(circle at 25% 30%, rgba(20, 90, 210, 0.55), transparent 35%),
+        radial-gradient(circle at 75% 65%, rgba(30, 140, 255, 0.35), transparent 35%),
+        radial-gradient(white 1px, transparent 1px);
+    background-size: auto, auto, 100px 100px;
+}
+
+body.uranus {
+    background-color: #07343d;
+    background-image:
+        radial-gradient(circle at 30% 35%, rgba(105, 235, 225, 0.3), transparent 35%),
+        radial-gradient(circle at 75% 70%, rgba(65, 180, 190, 0.3), transparent 40%),
+        radial-gradient(white 1px, transparent 1px);
+    background-size: auto, auto, 120px 120px;
+}
+
+body.saturn {
+    background-color: #3a2b1b;
+    background-image:
+        repeating-linear-gradient(
+            10deg,
+            #3a2b1b 0px,
+            #3a2b1b 45px,
+            #756044 55px,
+            #a98c62 75px,
+            #4d3a25 100px
+        );
+}
+
+body.neptune .container {
+    background-color: rgba(5, 25, 65, 0.9);
+    border-color: #2774d8;
+    box-shadow: 0 0 15px #1455b8;
+}
+
+body.uranus .container {
+    background-color: rgba(8, 55, 62, 0.9);
+    border-color: #55c9cf;
+    box-shadow: 0 0 15px #2b9ca3;
+}
+
+body.earth .container {
+    background-color: rgba(5, 35, 55, 0.9);
+    border-color: #3185b7;
+    box-shadow: 0 0 15px #17648e;
+}
+
+body.moon {
+    background-color: #c7c0b8;
+    background-image:
+        radial-gradient(circle at 15% 22%, rgba(255, 255, 255, 0.55) 0, rgba(255, 255, 255, 0.15) 10%, transparent 18%),
+        radial-gradient(circle at 38% 34%, rgba(110, 104, 96, 0.28) 0, rgba(110, 104, 96, 0.18) 9%, transparent 18%),
+        radial-gradient(circle at 70% 62%, rgba(110, 104, 96, 0.25) 0, rgba(110, 104, 96, 0.18) 11%, transparent 20%),
+        radial-gradient(circle at 82% 24%, rgba(255, 255, 255, 0.4) 0, rgba(255, 255, 255, 0.18) 8%, transparent 18%),
+        radial-gradient(circle at 52% 78%, rgba(120, 112, 107, 0.2) 0, rgba(120, 112, 107, 0.12) 11%, transparent 20%);
+    background-attachment: fixed;
+}
+
+body.moon .container {
+    background-color: rgba(63, 60, 58, 0.75);
+    border-color: #ede7df;
+    box-shadow: 0 0 15px rgba(70, 70, 70, 0.5);
+}
+
+body.solar-system {
+    background-color: #050b2e;
+    background-image:
+        radial-gradient(white 1px, transparent 1px),
+        radial-gradient(white 1px, transparent 1px);
+    background-size: 80px 80px, 120px 120px;
+    background-position: 0 0, 40px 40px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="planet-backgrounds.css">
+        <title>The Moon</title>
+    </head>
+
+    <body class="moon">
+        <header>
+            <a href="Solar_System.html">
+                <img src="Home_Logo.png" alt="Home Logo">
+            </a>
+            <nav class="planet-links" aria-label="Solar system pages">
+                <a href="The_Sun.html">The Sun</a>
+                <a href="Mercury.html">Mercury</a>
+                <a href="Venus.html">Venus</a>
+                <a href="Earth.html">Earth</a>
+                <a href="The Moon.html">Moon</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturn.html">Saturn</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+        </header>
+
+        <div class="img-container">
+            <img src="The Moon.png" alt="The Moon">
+        </div>
+
+        <div class="container">
+            <h1>The Moon</h1>
+            <p>Earth's Moon is the fifth-largest moon in the solar system and the only natural satellite of Earth. It is about 3,474 kilometers (2,159 miles) in diameter and sits roughly 384,400 kilometers (238,855 miles) away from our planet. The Moon is a major influence on Earth's tides, climate stability, and the rhythm of night and day.</p>
+
+            <h1>Size and Distance</h1>
+            <p>The Moon is about one-quarter the size of Earth, making it large compared with many moons in the solar system. It orbits Earth every 27.3 days and travels with our planet around the Sun. Even though it is much smaller than Earth, the Moon has enough gravity to create tides in the oceans and to help stabilize Earth's axial tilt over long periods of time.</p>
+
+            <h1>Orbit and Phases</h1>
+            <p>As the Moon moves around Earth, different parts of its sunlit side are visible from our planet. These changing views are called lunar phases: new moon, crescent, quarter, gibbous, and full moon. The Moon's orbit is slightly tilted compared with Earth's orbit around the Sun, which is why we do not have eclipses every month.</p>
+            <figure class="planet-photo">
+                <img src="CrescentMoon.jpg" alt="Crescent Moon illuminated against a starry sky">
+                <figcaption>A crescent phase occurs when we see only part of the Moon's sunlit side.</figcaption>
+            </figure>
+
+            <h1>Surface and Features</h1>
+            <p>The Moon's surface is covered with craters, mountains, valleys, and large dark plains called maria. These maria formed when ancient lava flows spread across the surface long ago. The Moon has no atmosphere to speak of, so there is no weather, no flowing water, and almost no erosion. Its surface is constantly bombarded by small meteoroids, which is why craters remain visible for millions of years.</p>
+
+            <h1>Human Exploration</h1>
+            <p>Humans first landed on the Moon during NASA's Apollo missions between 1969 and 1972. Astronauts collected rock samples, set up scientific instruments, and helped us learn more about the Moon's history and origin. The Moon remains an important target for future missions, especially for science, resource use, and possible long-term exploration.</p>
+
+            <a class="home-button" href="Solar_System.html">Back to Solar System</a>
+        </div>
+
+        <section class="weight-calculator" aria-labelledby="moon-calculator-title">
+            <h1 id="moon-calculator-title">Your Weight on the Moon</h1>
+            <form id="weight-form">
+                <label for="earth-weight">Your Earth weight (lbs):</label>
+                <input id="earth-weight" type="number" min="0" step="any" required>
+                <button type="submit">Calculate</button>
+            </form>
+            <p class="weight-result" id="weight-result" role="status" aria-live="polite"></p>
+        </section>
+
+        <script src="moon_weight.js"></script>
+    </body>
+</html>

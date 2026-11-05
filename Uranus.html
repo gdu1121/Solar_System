@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="planet-backgrounds.css">
+        <title>Uranus</title>
+    </head>
+
+    <body class ="uranus">
+        <header>
+            <a href="Solar_System.html">
+                <img src="Home_Logo.png" alt="Home Logo">
+            </a>
+            <nav class="planet-links" aria-label="Solar system pages">
+                <a href="The_Sun.html">The Sun</a>
+                <a href="Mercury.html">Mercury</a>
+                <a href="Venus.html">Venus</a>
+                <a href="Earth.html">Earth</a>
+                <a href="The Moon.html">Moon</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturn.html">Saturn</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+        </header>
+
+        <div class="img-container">
+            <img src="Uranus.png" alt="Uranus">
+        </div>
+
+        <div class="container">
+            <h1>Uranus</h1>
+            <p> Uranus is a very cold and windy world. The ice giant is surrounded by 13 faint rings and 28 small moons. Uranus rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways, orbiting the Sun like a rolling ball.</p>
+            <p> Uranus was the first planet found with the aid of a telescope. It was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode.</p>
+            <h1> Size and Distance</h1>
+            <p> With an equatorial diameter of 31,763 miles (51,118 kilometers), Uranus is four times wider than Earth. If Earth was the size of a nickel, Uranus would be about as big as a softball.</p>
+            <p> Uranus is located about 1.8 billion miles (2.9 billion kilometers) from the Sun, making it the seventh planet from the Sun. It takes 2 hours and 40 minutes for sunlight to travel from the Sun to Uranus.</p>
+            <h1> Orbit and Rotation</h1>
+            <p> One day on Uranus takes about 17.2 hours. Uranus makes a complete orbit around the Sun in about 84 Earth years.</p>
+            <p> Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees. This may be the result of a collision with an Earth-sized object long ago. This unique tilt causes Uranus to have the most extreme seasons in the solar system. For nearly a quarter of each Uranian year, the Sun shines directly over each pole, plunging the other half of the planet into a 21-year-long, dark winter.</p>
+            <h1> Structure and Surface</h1>
+            <p> Uranus is an ice giant, which means it has a larger core and a thicker atmosphere than the gas giants Jupiter and Saturn. Uranus is made up of hydrogen, helium, and methane gas, with a small rocky core. The methane in the atmosphere absorbs red light, giving the planet its blue-green color.</p>
+            <h1> Moons</h1>
+            <p> Uranus has 27 known moons, which are named after characters from the works of William Shakespeare and Alexander Pope. The five largest moons are Miranda, Ariel, Umbriel, Titania, and Oberon. These moons are made mostly of ice and rock and have a variety of surface features, including craters, valleys, and cliffs.</p>
+            <h1> Rings</h1>
+            <p> Uranus has 13 known rings, which are dark and narrow. The rings are made up of small particles of rock and ice, and they are thought to be relatively young, possibly formed from the debris of a shattered moon. The rings are not as prominent as those of Saturn, but they are still an important feature of the planet.</p>
+            <p> In order of increasing distance from the planet, the rings are called Zeta, 6, 5, 4, Alpha, Beta, Eta, Gamma, Delta, Lambda, Epsilon, Nu, and Mu. Some of the larger rings are surrounded by belts of fine dust.</p>
+            <figure class="planet-photo">
+                <img src="UranusRing.jpg" alt="Uranus surrounded by its faint rings">
+                <figcaption>Uranus's faint rings surround its blue-green planet.</figcaption>
+            </figure>
+            <a class="home-button" href="Solar_System.html">Back to Solar System</a>
+        </div>
+
+        <section class="planet-tool" aria-labelledby="uranus-tool-title">
+            <h1 id="uranus-tool-title">Uranus Seasons</h1>
+            <form id="uranus-form">
+                <label for="uranus-earth-years">Earth years elapsed:</label>
+                <input id="uranus-earth-years" type="number" min="0" step="any" required>
+                <button type="submit">Count Uranus Seasons</button>
+            </form>
+            <p class="tool-result" id="uranus-result" role="status" aria-live="polite"></p>
+        </section>
+
+        <script src="uranus_seasons.js"></script>
+    </body>
+</html>

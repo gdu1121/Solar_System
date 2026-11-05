@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="planet-backgrounds.css">
+        <title>Saturn</title>
+    </head>
+
+    <body class ="saturn">
+        <header>
+            <a href="Solar_System.html">
+                <img src="Home_Logo.png" alt="Home Logo">
+            </a>
+            <nav class="planet-links" aria-label="Solar system pages">
+                <a href="The_Sun.html">The Sun</a>
+                <a href="Mercury.html">Mercury</a>
+                <a href="Venus.html">Venus</a>
+                <a href="Earth.html">Earth</a>
+                <a href="The Moon.html">Moon</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturn.html">Saturn</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+        </header>
+
+        <div class="img-container">
+            <img src="Saturn.png" alt="Saturn">
+        </div>
+
+        <div class="container">
+            <h1>Saturn</h1>
+            <p>Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons.</p>
+            <h1> Size and Distance</h1>
+            <p> With an equatorial diameter of about 74,897 miles (120,500 kilometers), Saturn is 9 times wider than Earth. If Earth were the size of a nickel, Saturn would be about as big as a volleyball.</p>
+            <p> From an average distance of 886 million miles (1.43 billion kilometers), Saturn is 9.5 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 79 minutes to travel from the Sun to Saturn.</p>
+            <h1> Orbit and Rotation</h1>
+            <p> One day on Saturn takes about 10.7 hours. Saturn makes a complete orbit around the Sun in about 29.5 Earth years.</p>
+            <p> Saturn has a slight tilt in its axis, but not as extreme as some other planets, so it doesn't have dramatic seasons.</p>
+            <h1> Structure and Surface</h1>
+            <p> Saturn is a gas giant, so it does not have a solid surface like the terrestrial planets. Instead, its atmosphere gradually becomes denser toward the center, where it transitions into a liquid state. The composition of Saturn is similar to that of Jupiter - mostly hydrogen and helium. Deep in the atmosphere, pressure and temperature increase, compressing the hydrogen gas into a liquid.</p>
+            <p> Saturn has a solid core of heavier elements, but it is surrounded by a thick layer of liquid metallic hydrogen. The outermost layer is made of molecular hydrogen and helium. The planet's atmosphere is divided into several layers, with the uppermost layer containing clouds of ammonia crystals. Below that are clouds of ammonium hydrosulfide and water.</p>
+            <h1> Moons</h1>
+            <p> Saturn has 83 known moons, the largest of which is Titan. Titan is larger than the planet Mercury and has a thick atmosphere, making it one of the most Earth-like bodies in the solar system. Other notable moons include Enceladus, which has geysers that spew water into space, and Mimas, which has a large impact crater that gives it a resemblance to the Death Star from Star Wars.</p>
+            <h1> Rings</h1>
+            <p> Saturn's rings are made of countless small particles of ice and rock, ranging in size from tiny grains to massive chunks. The rings are incredibly thin, only about 10 meters thick in most places, but they extend out from the planet for thousands of miles.</p>
+            <figure class="planet-photo">
+                <img src="SaturnRing.jpg" alt="Detailed view of the bands and gaps in Saturn's rings">
+                <figcaption>Saturn's rings contain countless narrow bands and gaps.</figcaption>
+            </figure>
+            <a class="home-button" href="Solar_System.html">Back to Solar System</a>
+        </div>
+
+        <section class="planet-tool" aria-labelledby="saturn-tool-title">
+            <h1 id="saturn-tool-title">Your Age in Saturn Years</h1>
+            <form id="saturn-form">
+                <label for="saturn-earth-years">Your age in Earth years:</label>
+                <input id="saturn-earth-years" type="number" min="0" step="any" required>
+                <button type="submit">Convert to Saturn Years</button>
+            </form>
+            <p class="tool-result" id="saturn-result" role="status" aria-live="polite"></p>
+        </section>
+
+        <script src="saturn_years.js"></script>
+    </body>
+</html>
